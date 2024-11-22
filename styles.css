@@ -2,22 +2,7 @@
     background-color: #02024c;
     color: white;
 }
-.text-color{
-    color: white;
-}
-.hr-color{
-    border-top: 1px solid white !important;
-}
-.flex-wrap{
-    flex-wrap: nowrap !important;
-}
 
-.navbar {
-    background-color: #0B0A56; /* Matches the blue shade */
-    font-family: Arial, sans-serif;
-    font-size: 14px; /* Adjust size for consistency */
-    padding: 0.5rem 1rem;
-}
 
 .nav-link {
     color: white;
@@ -26,24 +11,6 @@
     white-space: nowrap; /* Ensures text stays in one line */
 }
 
-.navbar-nav {
-    display: flex;
-    flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
-}
-
-.navbar-nav .nav-item {
-    border-left: 1px solid white; /* Divider between items */
-    /* padding: 0 10px; */
-}
-
-.navbar-nav .nav-item:first-child {
-    border-left: none; /* Remove divider before the first item */
-}
-
-.d-flex .text-light {
-    font-size: 14px;
-    margin-right: 10px;
-}
 
 .fa-phone {
     font-size: 25px !important;
@@ -56,7 +23,7 @@
   justify-content: space-between;
   border-bottom: 1px solid #ddd;
   padding: 10px 15px;
-  background-color: #ffffff;
+  background-color: #A8D5BA;
 }
 
 .logo-section {
