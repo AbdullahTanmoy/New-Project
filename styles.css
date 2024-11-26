@@ -1,21 +1,21 @@
+/* Navbar */
 .nav-bg-color{
     background-color: #02024c;
     color: white;
 }
-
-
 .nav-link {
     color: white;
     /* margin: 0 10px;  */
     text-transform: uppercase;
     white-space: nowrap; /* Ensures text stays in one line */
 }
-
-
 .fa-phone {
     font-size: 25px !important;
     color: #1E90FF !important; 
 }
+
+
+
 /* Header */
 .header {
   display: flex;
@@ -58,6 +58,12 @@
 .button-section button {
   margin-left: 10px;
 }
+@media (max-width: 576px) {
+  .button-section{
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 .btn-zakat {
   background-color: #005662;
@@ -80,6 +86,35 @@
       position: static;
        /* Ensure it stays above other elements */
   }
+}
+@media (max-width: 500px) {
+  .logo-section img {
+    max-width: 130px;
+    height: auto;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-section {
+    margin-bottom: 10px;
+  }
+  .logo-text h1{
+    font-size: 18px;
+  }
+  .logo-text h2 span{
+    font-size: 14px;
+  }
+}
+@media (max-width: 360px){
+  .logo-text h1{
+    font-size: 16px;
+  }
+  .logo-section img {
+    max-width: 130px;
+    height: 140px;
+  }
+
 }
 
 
@@ -174,7 +209,66 @@
 .press-release a:hover {
   text-decoration: underline;
 }
+@media  (min-width: 992px) and (max-width: 1199px)  {
+  .news-img{
+    width: 225px !important;
+    height: 250px !important;
+  } 
+}
 
+/* About Us */
+@media  (min-width: 1400px) {
+  .Aboutus-img{
+    width: 730px !important;
+  }
+}
+@media  (min-width: 1200px) and (max-width: 1399px){
+.Aboutus-img{
+  width: 585px !important;
+}
+}
+@media  (min-width: 992px) and (max-width: 1199px){
+  .Aboutus-img{
+    width: 500px !important;
+  }
+  }
+  @media  (min-width: 576px) and (max-width: 767px){
+    .Aboutus-img{
+      width: 580px !important;
+      height: 320px !important;
+    }
+    }
+    @media  (max-width: 575px){
+      .Aboutus-img{
+        width: 500px !important;
+        height: 300px !important;
+      }
+    }
+    @media  (max-width: 500px){
+      .Aboutus-img{
+        width: 400px !important;
+        height: 260px !important;
+      }
+      .custom-highlight{
+        margin-right: 50px !important;
+        }
+        .custom-underline{
+          margin-left: 30px !important;
+          margin-right: 15px !important;
+        }
+    }
+    @media  (max-width: 420px){
+      .Aboutus-img{
+        width: 360px !important;
+        height: 240px !important;
+      }
+    }
+    @media  (max-width: 380px){
+      .Aboutus-img{
+        width: 305px !important;
+        height: 220px !important;
+      }
+    }
 
   /* Subscribe for news */
   .header2 {
@@ -199,7 +293,21 @@
 .btn-subscribe {
   background-color: #009688;
   color: white;
-  
+}
+@media  (max-width: 768px){
+  .header2{
+    display: flex;
+    flex-direction: column;
+  }
+  .button-section2 {
+    margin-top: 15px;
+    margin-right: 45px;
+  }
+}
+@media  (max-width: 576px){
+  .text-section{
+    margin: 0px !important;
+  }
 }
 
 
@@ -238,8 +346,10 @@
 
   .social-icons a:hover {
     transform: scale(1.1);
-    background-color: #e3e3e3;
+    background-color: blue !important;
+    color: white !important;
   }
+  
   .p-underline hr{
     color: white;
     border: 1px solid white;

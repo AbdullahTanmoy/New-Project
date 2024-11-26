@@ -8,16 +8,16 @@
     <script src="https://kit.fontawesome.com/d797f6557c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
+  <body >
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg  nav-bg-color">
+    <nav class="navbar navbar-expand-lg  nav-bg-color  ">
         <div class="container">
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon bg-white"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-5 mb-2 mb-lg-0">
+          <div class="collapse navbar-collapse flex-wrap" id="navbarSupportedContent">
+            <ul class="navbar-nav me-5 mb-2 mb-lg-0 flex-wrap">
               <li class="nav-item">
                 <a class="nav-link" href="#">Home</a>
               </li>
@@ -103,7 +103,7 @@
                 <a class="nav-link " >Contact</a>
               </li>
             </ul>
-            <div class="d-flex align-items-center justify-content-end mx-5 ">
+            <div class="d-flex align-items-center justify-content-start justify-content-lg-end mx-2 mx-lg-5 ">
                 <span class="text-white me-3"><i class="fa-solid fa-phone"></i></span>
                 <div class="text-white ">
                     <p class="mt-2 mb-0">16795</p>
@@ -129,13 +129,13 @@
   </div>
   <div class="button-section">
       <button class="btn btn-zakat">CALCULATE YOUR ZAKAT</button>
-      <button class="btn btn-donate">DONATE</button>
+      <button class="btn btn-donate mt-3 mt-xl-0">DONATE</button>
   </div>
 </div>
 
 
 <!-- Carousel -->
-<div>
+<div class="container">
   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
@@ -229,7 +229,7 @@
       </div> 
       <div class="row">
         <div class="col-lg-3 col-md-6">
-      <img src="https://anjumanmibd.org/storage/News/show/2024-10-18-671222b15d99c.jpg" alt="" style="object-fit: cover; width: 280px; height: 200px;">
+      <img class="news-img" src="https://anjumanmibd.org/storage/News/show/2024-10-18-671222b15d99c.jpg" alt="" style="object-fit: cover; width: 280px; height: 200px;">
         </div>
         <div class="col-lg-3 col-md-6">
           <div class="press-release">
@@ -297,26 +297,27 @@
         <div class="custom-highlight mx-auto"></div>
     </div> 
     <div class="row">
-      <div class="col-md-7">
-  <img src="https://anjumanmibd.org/storage/Aboutus/2021-01-16-6002672fef304.png" alt="" style="width: 750px; height: 340px; object-fit: cover;">
+      <div class="col-8 col-sm-8 col-md-12 col-lg-6 col-xl-6 col-xxl-7 mb-3 mb-md-3 mb-lg-0">
+  <img class="Aboutus-img" src="https://anjumanmibd.org/storage/Aboutus/2021-01-16-6002672fef304.png" alt="" style="width: 650px; height: 340px; object-fit: cover; border: 1px solid grey;">
       </div>
-      <div class="col-md-5">
+      <div class="col-10 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-5 px-md-2 px-lg-5 px-xxl-2">
      <h3 class="text-dark-emphasis">Welcome to Anjuman Mufidul Islam</h3>
      <p>Anjuman Mufidul Islam was founded in 1905, in Calcutta, British India, as a voluntary, non-profit and non-political social welfare organization by a prominent businessman and philanthropist, Sheth Ibrahim Mohammad Dupley of Surat. Sher-e-Bangla A. K. Fazlul Haque, Syed Nawab Ali Choudhury, H. S. Suhrawardy, Khawja Nazimuddin & other leading personalities of twentieth century gave leadership to Anjuman as Presidents of the organization. Anjuman was established in Dhaka, in September 1947 after the independence and partition of British India as a branch of Calcutta office. Since 1950 Anjuman continued to march forward, as...</p>
       </div>
     </div>
   </div>
+
+  
   <!-- Subscribe for news -->
-    
-  <div class="header2 container-fluid mt-4 ">
+    <div class="header2  container-fluid mt-4 ">
     <div class="text-section ms-5">
         
         <h2 class="text-black ">Subscribe for News Letter</h2>
-        <span class="text-center">Sign up for emails and receive early access to new event & more, After signing up, check your inbox for details.</span>
+        <span class="text-md-center text-start">Sign up for emails and receive early access to new event & more, After signing up, check your inbox for details.</span>
     </div>
-    <div class="button-section2">
+    <div class="button-section2 flex-wrap flex-xl-nowrap">
       <input type="email" class="form-control rounded-5 px-4" id="exampleFormControlInput1" placeholder="Enter Your email">
-        <button class="btn btn-subscribe ms-2 rounded-4 px-5 py-1">DONATE</button>
+        <button class="btn btn-subscribe ms-2 rounded-4 px-5 py-1 mt-3 mt-xl-0">DONATE</button>
     </div>
   </div>
        
@@ -387,7 +388,7 @@
             <!-- Map -->
             <div class="col-lg-3 col-md-6 mt-4">
                 <h6 class="mb-3">Location</h6>  
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.1279639001727!2d90.40574313884915!3d23.738251344669717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f4ec48c219%3A0x18aa5b3b697d3a05!2z4KaG4Kae4KeN4Kac4KeB4Kau4Ka-4KaoIOCmruCngeCmq-Cmv-CmpuCngeCmsiDgpofgprjgprLgpr7gpq4!5e0!3m2!1sen!2sbd!4v1732225482141!5m2!1sen!2sbd" width="300" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1826.1279639001727!2d90.40574313884915!3d23.738251344669717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8f4ec48c219%3A0x18aa5b3b697d3a05!2z4KaG4Kae4KeN4Kac4KeB4Kau4Ka-4KaoIOCmruCngeCmq-Cmv-CmpuCngeCmsiDgpofgprjgprLgpr7gpq4!5e0!3m2!1sen!2sbd!4v1732225482141!5m2!1sen!2sbd" width="250" height="220" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
              </div>
            
         </div>
